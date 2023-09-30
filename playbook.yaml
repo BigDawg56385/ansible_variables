@@ -8,7 +8,7 @@
       user:
         name: "{{ user }}"
         state: absent
-      when: inventory_hostname == "node1"
+      
          
 
 
