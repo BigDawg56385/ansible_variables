@@ -7,7 +7,7 @@
     - name: create user
       user:
         name: "{{ user }}"
-        state: absent
+        state: present
       
          
 
